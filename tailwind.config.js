@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       fontFamily: {
         "Poppins": ["Poppins", "system-ui"],
-        "PlayFair": ["Playfair Display", "system-ui"]
+        "Handwrite": ["Playwrite CU", "cursive"]
+      },
+      colors: {
+        "overlay": "rgb(0 0 0 / 0.5)"
       }
     },
   },
