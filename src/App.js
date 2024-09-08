@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Hero from './Hero';
 import About from './About';
+import Gift from './Gift';
 
 
 
@@ -22,6 +23,7 @@ const App = () => {
       <button className={`${isScroll ? "block" : "hidden"} transition-all px-4 py-2 rounded-full bg-black text-white fixed bottom-4 right-3 z-40 text-lg`} onClick={() => setToUp(document.documentElement.scrollTop = 0)}><i class="fa-solid fa-arrow-up"></i></button>
       <Hero />
       <About />
+      <Gift />
     </main>
   )
 }
