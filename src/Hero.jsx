@@ -2,7 +2,6 @@ import React from 'react';
 import { Navigation, Pagination, A11y, Autoplay } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -29,14 +28,14 @@ const Hero = () => {
           <div className="content relative h-full">
             <div className="overlay absolute h-full w-full bg-black/40"></div>
             <img src="Images/img12.jpg" className="w-screen h-screen object-cover z-20" alt="Slide 1" />
-            <div className="text absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-center flex flex-col gap-4">
+            <div className="text absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-center flex flex-col gap-4 w-full md:w-fit">
               <h2 className="font-Handwrite text-white font-bold text-xl sm:text-2xl lg:text-3xl">
                 Welcome To Rosebud
               </h2>
-              <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white">
+              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl text-white">
                 Time To Blossom
               </h1>
-              <p className="mt-4 text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl">
+              <p className="mt-4 text-gray-400 text-sm lg:text-lg">
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               </p>
               <div className="flex items-center gap-4 justify-center mt-4">
@@ -50,19 +49,18 @@ const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
           <div className="content relative h-full">
             <div className="overlay absolute h-full w-full bg-black/40"></div>
             <img src="Images/img14.jpg" className="w-screen h-screen object-cover z-20" alt="Slide 2" />
-            <div className="text absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-center flex flex-col gap-4">
+            <div className="text absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-center flex flex-col gap-4 w-full md:w-fit">
               <h2 className="font-Handwrite text-white font-bold text-xl sm:text-2xl lg:text-3xl">
                 Discover Our Garden
               </h2>
-              <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white">
+              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl text-white">
                 Nature’s Elegance
               </h1>
-              <p className="mt-4 text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl">
+              <p className="mt-4 text-gray-400 text-sm lg:text-lg">
                 Experience the beauty of nature with every bloom.
               </p>
               <div className="flex items-center gap-4 justify-center mt-4">
@@ -76,19 +74,18 @@ const Hero = () => {
             </div>
           </div>
         </SwiperSlide>
-
         <SwiperSlide>
           <div className="content relative h-full">
             <div className="overlay absolute h-full w-full bg-black/40"></div>
             <img src="Images/img15.jpg" className="w-screen h-screen object-cover z-20" alt="Slide 3" />
-            <div className="text absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-center flex flex-col gap-4">
+            <div className="text absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 z-30 text-center flex flex-col gap-4 w-full md:w-fit">
               <h2 className="font-Handwrite text-white font-bold text-xl sm:text-2xl lg:text-3xl">
                 Cherish Every Moment
               </h2>
-              <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl text-white">
+              <h1 className="font-serif text-5xl sm:text-6xl lg:text-7xl text-white">
                 A Place of Serenity
               </h1>
-              <p className="mt-4 text-gray-400 text-sm sm:text-lg md:text-xl lg:text-2xl">
+              <p className="mt-4 text-gray-400 text-sm lg:text-lg">
                 Find peace and tranquility in our natural haven.
               </p>
               <div className="flex items-center gap-4 justify-center mt-4">

@@ -8,7 +8,8 @@ module.exports = {
         "Handwrite": ["Playwrite CU", "cursive"]
       },
       colors: {
-        "overlay": "rgb(0 0 0 / 0.5)"
+        "overlay": "rgb(0 0 0 / 0.5)",
+        "specialBg": "#FFF0E9"
       }
     },
   },
