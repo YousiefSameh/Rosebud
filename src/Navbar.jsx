@@ -58,7 +58,7 @@ const Navbar = () => {
               <i className={`fa-solid fa-cart-shopping fa-lg ${isScroll ? 'text-black' : 'text-white'}`}></i>
             </a>
             <span className="absolute w-5 h-5 flex items-center justify-center rounded-full bg-black text-white -top-2 -right-2 text-xs">
-              1
+              0
             </span>
           </div>
           {/* Mobile Menu Toggle */}
@@ -103,7 +103,7 @@ const Navbar = () => {
                 <i className={`fa-solid fa-cart-shopping fa-lg ${isScroll ? 'text-black' : 'text-white'}`}></i>
               </a>
               <span className="absolute w-5 h-5 flex items-center justify-center rounded-full bg-black text-white -top-3 -right-2 text-xs leading-normal">
-                1
+                0
               </span>
             </li>
           </ul>
