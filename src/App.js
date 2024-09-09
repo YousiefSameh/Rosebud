@@ -7,6 +7,7 @@ import WonderfullGift from "./WonderfullGift";
 import Testimolina from "./Testimolina";
 import OurTeam from "./OurTeam";
 import Newsletter from "./Newsletter";
+import Footer from "./Footer";
 
 const App = () => {
 	const [isScroll, setIsScroll] = useState(false);
@@ -38,6 +39,7 @@ const App = () => {
 			<Testimolina />
 			<OurTeam />
       <Newsletter />
+      <Footer />
 		</main>
 	);
 };
