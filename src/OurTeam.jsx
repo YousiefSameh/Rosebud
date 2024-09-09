@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const OurTeam = () => {
   return (
@@ -53,7 +53,7 @@ const OurTeam = () => {
       </div>
       <img src="Images/img01.jpg" className='absolute bottom-0 left-0 z-0 hidden lg:block' alt="" />
     </section>
-  )
-}
+  );
+};
 
-export default OurTeam
+export default OurTeam;

@@ -6,9 +6,9 @@ import Statues from "./Statues";
 import WonderfullGift from "./WonderfullGift";
 import Testimolina from "./Testimolina";
 import OurTeam from "./OurTeam";
+import Newsletter from "./Newsletter";
 
 const App = () => {
-	const [ToUp, setToUp] = useState(false);
 	const [isScroll, setIsScroll] = useState(false);
 	useEffect(() => {
 		const handleScroll = () => {
@@ -19,13 +19,14 @@ const App = () => {
 			window.removeEventListener("scroll", handleScroll);
 		};
 	}, []);
+  const GoToUp = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 	return (
 		<main className="font-Poppins">
 			<button
 				className={`${
 					isScroll ? "block" : "hidden"
 				} transition-all px-4 py-2 rounded-full bg-neutral-800 text-white fixed bottom-4 right-3 z-40 text-lg`}
-				onClick={() => setToUp((document.documentElement.scrollTop = 0))}
+				onClick={GoToUp}
 			>
 				<i class="fa-solid fa-arrow-up"></i>
 			</button>
@@ -36,6 +37,7 @@ const App = () => {
 			<WonderfullGift />
 			<Testimolina />
 			<OurTeam />
+      <Newsletter />
 		</main>
 	);
 };
