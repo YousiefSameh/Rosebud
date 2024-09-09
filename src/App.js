@@ -5,6 +5,7 @@ import Gift from "./Gift";
 import Statues from "./Statues";
 import WonderfullGift from "./WonderfullGift";
 import Testimolina from "./Testimolina";
+import OurTeam from "./OurTeam";
 
 const App = () => {
 	const [ToUp, setToUp] = useState(false);
@@ -34,6 +35,7 @@ const App = () => {
 			<Statues />
 			<WonderfullGift />
 			<Testimolina />
+			<OurTeam />
 		</main>
 	);
 };
